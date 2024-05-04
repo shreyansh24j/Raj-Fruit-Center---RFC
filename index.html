@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+      </div>
+      <a href="nextpage.html">Sign In</a>
+      <div class="signup-link">
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+      </div>
+      <div class="social-login">
+        <p>Or connect with:</p>
+        <button id="googleLogin"><strong>Login With Google</strong></button>
+        <br>
+        <button id="facebookLogin">Login with Facebook</button>
+        <br>
+        <button id="twitterLogin">Login with Twitter</button>
+        
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
